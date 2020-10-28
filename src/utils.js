@@ -41,11 +41,8 @@ export function CalcFileSize(size) {
     case 2:
       result[1] = " MB";
       break;
-    case 3:
-      result[1] = " GB";
-      break;
     default:
-      result[1] = " B";
+      result[1] = " GB";
       break;
   }
   return result;
