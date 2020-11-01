@@ -1,6 +1,4 @@
-# React Interface - demo app
-
-###### This is demo app of LinkedIn learning course [React.js: Building an Interface](https://www.linkedin.com/learning/react-js-building-an-interface-2/creating-interfaces-with-react)
+# React Ultimate Form - demo app
 
 ## General info
 
