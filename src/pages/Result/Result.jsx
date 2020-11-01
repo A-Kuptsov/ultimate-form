@@ -31,17 +31,10 @@ const Result = () => {
       formData.append(entry[0], entry[1]);
     });
 
-    const res = await fetch(CONSTS.LINK, {
-      method: "GET" //POST
-      // body: formData
-    });
-
-    if (res.status === 200) {
-      Swal.fire(CONSTS.SWAL_TITLE, CONSTS.SWAL_MESSAGE, "success");
-      setSuccess(true);
-      ResetData(data);
-      setTimeout(() => history.push("/"), CONSTS.TIMEOUT);
-    }
+    Swal.fire(CONSTS.SWAL_TITLE, CONSTS.SWAL_MESSAGE, "success");
+    setSuccess(true);
+    ResetData(data);
+    setTimeout(() => history.push("/"), CONSTS.TIMEOUT);
   };
 
   React.useEffect(() => {
