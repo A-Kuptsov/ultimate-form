@@ -30,6 +30,7 @@ const useStyles = makeStyles(theme => ({
 
 export const FileInput = ({ control, name }) => {
   const styles = useStyles();
+
   return (
     <Controller
       control={control}
